@@ -11,7 +11,7 @@ import SwiftUI
 struct ImperativeSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            LoginView(accentColor: .blue, primaryColor: .white)
         }
     }
 }
